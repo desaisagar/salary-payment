@@ -1,0 +1,24 @@
+{
+  "name": "ssd/salary-payment",
+  "description": "The PHP CLI that will generate csv file which contains all the payment dates for the remainder of the year.",
+  "type": "library",
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0",
+    "mockery/mockery": "^1.2",
+    "symfony/console": "^4.2"
+  },
+  "authors": [
+    {
+      "name": "Sagar Desai",
+      "email": "sagardesai1990@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SSD\\SalaryPayment\\": "src/"
+    }
+  }
+}
